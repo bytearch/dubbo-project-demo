@@ -24,5 +24,6 @@ sh ./make.sh
 
 || 项   | 地址 | 账号密码 |
 |----| --- | --- | --- |
-|注册中心| Nacos | http://172.30.1.201:8848/nacos | 账号: nacos  密码: nacos
-|测试| Consumer | http://172.30.1.204:8080/hello/say?name=www.bytearch.com
+|注册中心| Nacos | http://172.30.1.201:8848/nacos | 账号: nacos  密码: nacos|
+|测试| 读请求 | http://172.30.1.204:8080/hello/get?name=www.bytearch.com|
+|测试| 写请求 | http://172.30.1.204:8080/hello/write?name=www.bytearch.com|
